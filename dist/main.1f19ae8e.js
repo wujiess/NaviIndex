@@ -117,12 +117,12 @@ parcelRequire = (function (modules, cache, entry, globalName) {
   }
 
   return newRequire;
-})({"../public/images/lamb-close.png":[function(require,module,exports) {
-module.exports = "/lamb-close.be235185.png";
+})({"lamb-close.png":[function(require,module,exports) {
+module.exports = "/lamb-close.8fe7a5d1.png";
 },{}],"main.js":[function(require,module,exports) {
 "use strict";
 
-var _lambClose = _interopRequireDefault(require("../public/images/lamb-close.png"));
+var _lambClose = _interopRequireDefault(require("./lamb-close.png"));
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -193,7 +193,7 @@ $(function () {
     });
   }
 });
-},{"../public/images/lamb-close.png":"../public/images/lamb-close.png"}],"C:/Users/yanming/AppData/Local/Yarn/Data/global/node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
+},{"./lamb-close.png":"lamb-close.png"}],"C:/Users/yanming/AppData/Local/Yarn/Data/global/node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
 var OldModule = module.bundle.Module;
@@ -221,7 +221,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "53700" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "57128" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};

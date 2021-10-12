@@ -1,4 +1,4 @@
-import imageURL from '../public/images/lamb-close.png';
+import imageURL from './lamb-close.png';
 
 let localStorageSites = localStorage.getItem('sites');
 
