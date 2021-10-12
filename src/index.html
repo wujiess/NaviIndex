@@ -5,41 +5,21 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=yes">
-    <title>导航</title>
+    <title>像素导航</title>
     <link rel="stylesheet" href="./style.css">
 </head>
 
 <body>
     <header class="nav-header">
-        <form action="" class="searchForm">
-            <input type="text" name="wd"><input type="submit" value="搜索">
+        <form action="//www.baidu.com/s" class="searchForm">
+            <input type="text" name="wd"><button type="submit">搜索</button>
         </form>
     </header>
-    <main>
+    <main class="nav-main">
         <ul>
-            <li>
-                <div>
-                    <p>A</p>
-                    <p>acfun.cn</p>
-                </div>
-            </li>
-            <li>
-                <div>
-                    <p>B</p>
-                    <p>bilibili.com</p>
-                </div>
-            </li>
-            <li>
-                <div>
-                    <p>C</p>
-                    <p>cctv.com</p>
-                </div>
-            </li>
-            <li>
-                <div>
-                    <p>+</p>
-                    <p>新增网站</p>
-                </div>
+            <li class="addSite">
+                <div class="logo"> <img src="../public/images/lamb-create.png"></div>
+                <div class="link">新增网站</div>
             </li>
         </ul>
     </main>

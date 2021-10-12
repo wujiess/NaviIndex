@@ -26,7 +26,7 @@ a {
 
 @font-face {
     font-family: 'ARCADE';
-    src: url('../public/fonts/ARCADE.TTF');
+    src: url('/ARCADE.08934e21.TTF');
 }
 
 
@@ -126,3 +126,5 @@ body {
     margin-top: 4px;
     font-size: 14px;
 }
+
+/*# sourceMappingURL=/style.e308ff8e.css.map */
