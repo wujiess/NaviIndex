@@ -33,7 +33,7 @@ window.onbeforeunload = function() {
 };
 
 $(function() {
-    $(".searchForm>div>input").focus();
+    $(".searchForm>input").focus();
 
     $(".addSite").click(function() {
         const url = window.prompt('请输入要添加的网址');
